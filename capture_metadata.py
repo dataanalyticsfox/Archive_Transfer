@@ -8,7 +8,7 @@ from configparser import ConfigParser
 
 def get_metadata(trans_id):
     # legacy site.
-    url = 'https://status.datahub.pnl.gov/view/' + str(trans_id)
+    url = 'https://status.example.gov/view/' + str(trans_id)
 
     # read config file
     parser = ConfigParser()
